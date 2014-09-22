@@ -1,98 +1,308 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=640">
+    <meta charset='utf-8' />
+    <link href="css/style.css"  type="text/css" rel="stylesheet"/>
 
-    <link rel="stylesheet" href="stylesheets/core.css" media="screen">
-    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script type="text/javascript" src="js/main.js"></script>
 
-    <script type="text/javascript" src="javascripts/modernizr.js"></script>
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
-    <script type="text/javascript">
-      $(document).ready(function () {
-        $('#main_content').headsmart()
-      })
-    </script>
-    <title>Fight Ebola by ElisabethEngel</title>
+    <title>Fight the Ebola Virus</title>
   </head>
+<body>
+    <h1 style="text-align: center">Fight the Ebola Virus</h1>
 
-  <body>
-    <a id="forkme_banner" href="https://github.com/ElisabethEngel/fight-ebola">View on GitHub</a>
-    <div class="shell">
+    <div class="karte">
 
-      <header>
-        <span class="ribbon-outer">
-          <span class="ribbon-inner">
-            <h1>Fight Ebola</h1>
-            <h2></h2>
-          </span>
-          <span class="left-tail"></span>
-          <span class="right-tail"></span>
-        </span>
-      </header>
-
-      <section id="downloads">
-        <span class="inner">
-          <a href="https://github.com/ElisabethEngel/fight-ebola/zipball/master" class="zip"><em>download</em> .ZIP</a><a href="https://github.com/ElisabethEngel/fight-ebola/tarball/master" class="tgz"><em>download</em> .TGZ</a>
-        </span>
-      </section>
+        <div class="kartenwrapper">
+            <div class="kartenvertical">
+                <div class="kartencontent">
 
 
-      <span class="banner-fix"></span>
+                <!-- GESAMT FäLLE -->
+                <div>
+                    <div class="circle circle-fall circle-gesamtfall"
+                         style="left: -100px; right: auto; top: auto; bottom: -100px;/* width: 49.0935%;*/">
+                        <div>
+                            <span class="gesamt">Gesamt</span>
+                            <br>
+                            <span class="gesamtinfo">Fälle ohne Kongo</span>
+                            <br>
+                            <span class="gesamtzahl">4269</span></div>
+                    </div>
+                </div>
 
 
-      <section id="main_content">
-        <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
+                <!-- GESAMT TOTE -->
+                <div>
+                    <div class="circle circle-tot circle-gesamttot"
+                         style="left: 24%; right: auto; top: auto; bottom: -30px;/* width: 26.312%;*/">
+                        <div>
+                            <span class="gesamt">Gesamt</span>
+                            <br>
+                            <span class="gesamtinfo">davon Tote ohne Kongo</span>
+                            <br>
+                            <span class="gesamtzahl">2288</span></div>
+                    </div>
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
+                </div>
 
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
+                <!-- GUINEA FäLLE -->
+                <div>
+                    <div class="circle-fall kartenlink circle-guinea-gesamtfall"
+                         style="left: 14%; right: auto; top: 20%; bottom: auto; /*width: 9.913%;*/">
+                        <div>
+                            <span class="land">Guinea</span>
+                            <br>
+                            <span class="landinfo">Fälle</span>
+                            <br>
+                            <span class="landzahl">862</span></div>
+                    </div>
 
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
+                </div>
 
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
+                <!-- GUINEA TOTE -->
+                <div>
 
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
+                    <div class="circle-tot kartenlink circle-guinea-tote"
+                         style="left: 21%; right: auto; top: 20%; bottom: 38%; /*width: 6.3825%;*/">
+                        <div>
+                            <span class="landinfo">Tote</span>
+                            <br>
+                            <span class="landzahl">555</span></div>
+                    </div>
 
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
+                </div>
 
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
+                <!-- SIERRA LEONE FäLLE -->
+                <div>
 
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
+                    <div class="circle-fall kartenlink circle-sierra-gesamtfall"
+                         style="left: 2%; right: auto; top: auto; bottom: 41%;/* width: 15.6515%;*/">
+                        <div>
+                            <span class="land">Sierra Leone</span>
+                            <br>
+                            <span class="landinfo">Fälle</span>
+                            <br>
+                            <span class="landzahl">1361</span></div>
+                    </div>
 
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
+                </div>
 
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
+                <!-- SIERRA LEONE TOTE -->
+                <div>
 
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
+                    <div class="circle-tot kartenlink circle-sierra-tote"
+                         style="left: 7%; right: auto; top: auto; bottom: 38%; /*width: 6.1295%;*/">
+                        <div>
+                            <span class="landinfo">Tote</span>
+                            <br>
+                            <span class="landzahl">533</span></div>
+                    </div>
 
-      <footer>
-        <span class="ribbon-outer">
-          <span class="ribbon-inner">
-            <p>this project by <a href="https://github.com/ElisabethEngel">ElisabethEngel</a> can be found on <a href="https://github.com/ElisabethEngel/fight-ebola">GitHub</a></p>
-          </span>
-          <span class="left-tail"></span>
-          <span class="right-tail"></span>
-        </span>
-        <p>Generated with <a href="http://pages.github.com">GitHub Pages</a> using Merlot</p>
-        <span class="octocat"></span>
-      </footer>
+                </div>
+
+                <!-- LIBERIA FäLLE -->
+                <div>
+
+                    <div class="circle-fall kartenlink circle-liberia-gesamtfall"
+                         style="left: 22%; right: auto; top: auto; bottom: 45%; /*width: 23.529%;*/">
+                        <div>
+                            <span class="land">Liberia</span>
+                            <br>
+                            <span class="landinfo">Fälle</span>
+                            <br>
+                            <span class="landzahl">2046</span></div>
+                    </div>
+
+                </div>
+
+                <!-- LIBERIA TOTE -->
+                <div>
+
+                    <div class="circle-tot kartenlink circle-liberia-tote"
+                         style="left: 26%; right: auto; top: auto; bottom: 38%; /*width: 14.076%;*/">
+                        <div>
+                            <span class="landinfo">Tote</span>
+                            <br>
+                            <span class="landzahl">1224</span></div>
+                    </div>
+
+                </div>
+
+                <!-- Nigeria FäLLE -->
+                <div>
+
+                    <div class="circle-fall kartenlink circle-nigeria-gesamtfall"
+                         style="left: auto; right: 48%; top: 36%; bottom: auto; /*width: 6%;*/">
+                        <div>
+                            <span class="land">Nigeria</span>
+                            <br>
+                            <span class="landzahl">21</span></div>
+                    </div>
+
+                </div>
+
+                <!-- Nigeria TOTE -->
+                <div>
+
+                    <div class="circle-tot kartenlink circle-nigeria-tote"
+                         style="left: auto; right: 44.5%; top: 38%; bottom: auto; /*width: 4%;*/">
+                        <div>
+                            <span class="landinfo">Tote</span>
+                            <br>
+                            <span class="landzahl">8</span></div>
+                    </div>
+
+                </div>
+
+                <!-- KONGO FäLLE -->
+                <div>
+
+                    <div class="circle-fall kartenlink circle-kongo-gesamtfall"
+                         style="left: auto; right: 17%; top: auto; bottom: 36%; /*width: 6%;*/">
+                        <div>
+                            <span class="land">Kongo</span>
+                            <br>
+                            <!-- <span class="landinfo">Fälle</span><br/> -->
+                            <span class="landzahl">62</span></div>
+                    </div>
+
+                </div>
+
+                <!-- Kongo TOTE -->
+                <div>
+
+                    <div class="circle-tot kartenlink circle-kongo-tote"
+                         style="left: auto; right: 14%; top: auto; bottom: 36%;/* width: 4%;*/">
+                        <div>
+                            <span class="landinfo">Tote</span>
+                            <br>
+                            <span class="landzahl">35</span></div>
+                    </div>
+
+                </div>
+
+                <!-- SENEGAL FäLLE -->
+                <div>
+                    <div class="circle-fall kartenlink circle-senegal-gesamtfall"
+                         style="left: 1%; right: auto; top: 14%; bottom: auto; /*width: 6%;*/">
+                        <div>
+                            <span class="land">Senegal</span>
+                            <br>
+                            <!-- <span class="landinfo">Fälle</span><br/> -->
+                            <span class="landzahl">3</span></div>
+                    </div>
+
+                </div>
+
+                <!-- SENEGAL TOTE -->
+                <div>
+                    <div class="circle-tot kartenlink circle-senegal-tote"
+                         style="left: 6%; right: auto; top: 15%; bottom: auto; /*width: 4%;*/">
+                        <div>
+                            <span class="landinfo">Tote</span>
+                            <br>
+                            <span class="landzahl">0</span></div>
+                    </div>
+
+                </div>
+
+
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="donate" style="display: none">
+
+        <h2>You lost the fight against Ebola!</h2>
+
+        Please help, so we don't lose in reality, too.<br><br>
+
+        Donate to: <br><br>
+
+        <a href="https://www.aerzte-ohne-grenzen.de/online-spenden" target="_blank">Ärzte ohne Grenzen</a><br><br>
+
+        <a href="https://ssl.aktion-deutschland-hilft.de/spenden/spenden" target="_blank">Aktion Deutschland Hilft</a><br><br>
+
+        <a href="https://donate.doctorswithoutborders.org/onetime.cfm" target="_blank">Doctors without Borders</a><br><br>
 
     </div>
 
-    
-  </body>
+    <div class="about">
+
+        <h2>What is this about?</h2>
+
+        I created this to show how urgent we need to help. <br><br>
+
+        If you want to get into contact: <a href="mailto:whatever@web.de">whatever@web.de</a>    <br><br>
+
+        Graphic taken from: <a href="http://www.spiegel.de/gesundheit/diagnose/karte-verbreitung-von-ebola-in-westafrika-a-983750.html" target="_blank">SPIEGEL ONLINE</a>
+
+    </div>
+
+    <script type="text/javascript">
+
+        (function() {
+
+            const factor = 86.95652;
+
+            var playGoingOn = true;
+
+            var landzahl = document.getElementsByClassName('landzahl');
+            var kartenlink = document.getElementsByClassName('kartenlink');
+            var gesamtzahl = document.getElementsByClassName('gesamtzahl');
+            var circle = document.getElementsByClassName('circle');
+
+            for  (var i = 0; i < landzahl.length; i += 2) {
+                kartenlink.item(i).addEventListener('click', fight.bind(null, i), false);
+            }
+
+            function fight(i) {
+                if (playGoingOn) {
+
+                    var oldAmount = parseInt(landzahl.item(i).innerHTML);
+                    var newAmount = Math.max(0, oldAmount - 30);
+
+                    landzahl.item(i).innerHTML = newAmount;
+                    kartenlink.item(i).style.width = newAmount / factor + "%";
+                    gesamtzahl.item(0).innerHTML = parseInt(gesamtzahl.item(0).innerHTML) - 100;
+                }
+
+            }
+
+            setInterval(function () {progress()}, 100);
+
+            function progress() {
+                if (playGoingOn) {
+                    for  (var i = 0; i < landzahl.length; i += 2) {
+
+                        var progressInfected = Math.ceil(parseInt(landzahl.item(i).innerHTML) * 0.004);
+                        var progressDeath =  Math.ceil(parseInt(landzahl.item(i).innerHTML) * 0.002);
+
+                        landzahl.item(i).innerHTML = parseInt(landzahl.item(i).innerHTML) + progressInfected;
+                        landzahl.item(i+1).innerHTML = parseInt(landzahl.item(i+1).innerHTML) + progressDeath;
+
+                        kartenlink.item(i).style.width = parseInt(landzahl.item(i).innerHTML) / factor  + "%";
+                        kartenlink.item(i+1).style.width = parseInt(landzahl.item(i+1).innerHTML) / factor+ "%";
+
+                        gesamtzahl.item(0).innerHTML = parseInt(gesamtzahl.item(0).innerHTML) + progressInfected;
+                        gesamtzahl.item(1).innerHTML = parseInt(gesamtzahl.item(1).innerHTML) + progressDeath;
+
+                        circle.item(0).style.width = parseInt(gesamtzahl.item(0).innerHTML) / factor + "%";
+                        circle.item(1).style.width = parseInt(gesamtzahl.item(1).innerHTML) / factor + "%";
+                    }
+
+                    if (parseInt(gesamtzahl.item(0).innerHTML) + parseInt(gesamtzahl.item(1).innerHTML) > 15000) {
+                        playGoingOn = false;
+
+                        document.getElementsByClassName('karte').item(0).style.display = "none";
+                        document.getElementsByClassName('donate').item(0).style.display = "block";
+
+                    }
+                }
+            }
+        })();
+    </script>
+</body>
 </html>
